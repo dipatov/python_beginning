@@ -13,6 +13,14 @@ def my_func_1(x, y):
 
 
 def my_func_2(x, y):
+    """
+    Возводит число x в степень y
+
+    (int, int) -> float
+
+    >>> my_func_2(2, -2)
+    0.25
+    """
     if y < 0:
         x = 1 / x
         y = -y
